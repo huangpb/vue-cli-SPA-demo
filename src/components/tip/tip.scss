@@ -1,0 +1,17 @@
+.tip {
+  position: fixed;
+  top: 90px;
+  left: 50%;
+  z-index: 200;
+  max-width: 80%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 6px 1px #168bee;
+
+  .iconfont {font-size: 24px}
+}
+
