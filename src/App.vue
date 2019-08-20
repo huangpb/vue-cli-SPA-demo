@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <CitySelector></CitySelector>
-    <button @click="showComfirm()">弹出确认框</button>
-    <button @click="showTip()">提示框</button>
-    <button @click="loading()">加载中</button>
+    <button @click="showComfirm">弹出确认框</button>
+    <button @click="showTip">提示框</button>
+    <button @click="loading">加载中</button>
     <button @click="fetchUnits">获取楼栋单元</button>
 
     <!--<router-view/>-->
